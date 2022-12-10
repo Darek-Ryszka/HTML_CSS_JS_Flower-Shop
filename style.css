@@ -315,3 +315,24 @@ section{
 	color: var(--bg-color);
 	transform: scale(1.1);
 }
+.end-text p{
+	text-align: center;
+	background: #272829;
+	color: var(--other-color);
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 20px;
+}
+
+.scroll-top{
+	position: fixed;
+	bottom: 2.3rem;
+	right: 2.3rem;
+}
+.scroll-top i{
+	background: var(--main-color);
+	color: var(--bg-color);
+	font-size: 22px;
+	padding: 12px;
+	border-radius: 30px;
+}
